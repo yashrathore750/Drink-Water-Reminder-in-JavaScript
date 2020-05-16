@@ -11,7 +11,7 @@ function startTime(){
 
     document.getElementById('time').innerHTML = h + ":" + m + ":" + s;
     var t = setTimeout(startTime, 500);
-    if (m == 31 && s < 05) {
+    if (m == 00 && s < 05) {
         // document.body.style.backgroundColor = "red";
         alert("It's your time to drink water");
     }
